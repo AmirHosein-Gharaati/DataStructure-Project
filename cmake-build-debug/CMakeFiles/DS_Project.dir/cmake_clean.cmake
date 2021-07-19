@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/DS_Project.dir/AVL.cpp.o"
-  "CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o"
-  "CMakeFiles/DS_Project.dir/Node.cpp.o"
-  "CMakeFiles/DS_Project.dir/Queue.cpp.o"
+  "CMakeFiles/DS_Project.dir/Library/AVL.cpp.o"
+  "CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o"
+  "CMakeFiles/DS_Project.dir/Library/Node.cpp.o"
+  "CMakeFiles/DS_Project.dir/Library/Queue.cpp.o"
   "CMakeFiles/DS_Project.dir/main.cpp.o"
   "DS_Project"
   "DS_Project.pdb"

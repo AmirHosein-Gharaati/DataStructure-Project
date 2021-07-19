@@ -6,31 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
-Node.h
-/home/amir/Amir/Programs/CPP/DS-Project/Node.h
-Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp
+AVL.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
+iostream
+-
 
-/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp
+/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
+Node.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp
 MainDataStructure.h
-/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
 iostream
 -
 AVL.h
-/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
 
-/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
 AVL.h
-/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
 Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
 
-/home/amir/Amir/Programs/CPP/DS-Project/Node.h
-Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp
 Node.h
-/home/amir/Amir/Programs/CPP/DS-Project/Node.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+Node.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/main.cpp
+iostream
+-
+Library/MainDataStructure.h
+/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
+iostream
+-
 

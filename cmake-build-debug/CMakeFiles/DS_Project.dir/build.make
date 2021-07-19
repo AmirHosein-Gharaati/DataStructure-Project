@@ -90,74 +90,74 @@ CMakeFiles/DS_Project.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/main.cpp -o CMakeFiles/DS_Project.dir/main.cpp.s
 
-CMakeFiles/DS_Project.dir/AVL.cpp.o: CMakeFiles/DS_Project.dir/flags.make
-CMakeFiles/DS_Project.dir/AVL.cpp.o: ../AVL.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DS_Project.dir/AVL.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/AVL.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/AVL.cpp
+CMakeFiles/DS_Project.dir/Library/AVL.cpp.o: CMakeFiles/DS_Project.dir/flags.make
+CMakeFiles/DS_Project.dir/Library/AVL.cpp.o: ../Library/AVL.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/DS_Project.dir/Library/AVL.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Library/AVL.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp
 
-CMakeFiles/DS_Project.dir/AVL.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/AVL.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/AVL.cpp > CMakeFiles/DS_Project.dir/AVL.cpp.i
+CMakeFiles/DS_Project.dir/Library/AVL.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Library/AVL.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp > CMakeFiles/DS_Project.dir/Library/AVL.cpp.i
 
-CMakeFiles/DS_Project.dir/AVL.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/AVL.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/AVL.cpp -o CMakeFiles/DS_Project.dir/AVL.cpp.s
+CMakeFiles/DS_Project.dir/Library/AVL.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Library/AVL.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp -o CMakeFiles/DS_Project.dir/Library/AVL.cpp.s
 
-CMakeFiles/DS_Project.dir/Node.cpp.o: CMakeFiles/DS_Project.dir/flags.make
-CMakeFiles/DS_Project.dir/Node.cpp.o: ../Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS_Project.dir/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Node.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Node.cpp
+CMakeFiles/DS_Project.dir/Library/Node.cpp.o: CMakeFiles/DS_Project.dir/flags.make
+CMakeFiles/DS_Project.dir/Library/Node.cpp.o: ../Library/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/DS_Project.dir/Library/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Library/Node.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp
 
-CMakeFiles/DS_Project.dir/Node.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Node.cpp > CMakeFiles/DS_Project.dir/Node.cpp.i
+CMakeFiles/DS_Project.dir/Library/Node.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Library/Node.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp > CMakeFiles/DS_Project.dir/Library/Node.cpp.i
 
-CMakeFiles/DS_Project.dir/Node.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Node.cpp -o CMakeFiles/DS_Project.dir/Node.cpp.s
+CMakeFiles/DS_Project.dir/Library/Node.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Library/Node.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp -o CMakeFiles/DS_Project.dir/Library/Node.cpp.s
 
-CMakeFiles/DS_Project.dir/Queue.cpp.o: CMakeFiles/DS_Project.dir/flags.make
-CMakeFiles/DS_Project.dir/Queue.cpp.o: ../Queue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DS_Project.dir/Queue.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Queue.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Queue.cpp
+CMakeFiles/DS_Project.dir/Library/Queue.cpp.o: CMakeFiles/DS_Project.dir/flags.make
+CMakeFiles/DS_Project.dir/Library/Queue.cpp.o: ../Library/Queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/DS_Project.dir/Library/Queue.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Library/Queue.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp
 
-CMakeFiles/DS_Project.dir/Queue.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Queue.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Queue.cpp > CMakeFiles/DS_Project.dir/Queue.cpp.i
+CMakeFiles/DS_Project.dir/Library/Queue.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Library/Queue.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp > CMakeFiles/DS_Project.dir/Library/Queue.cpp.i
 
-CMakeFiles/DS_Project.dir/Queue.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Queue.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Queue.cpp -o CMakeFiles/DS_Project.dir/Queue.cpp.s
+CMakeFiles/DS_Project.dir/Library/Queue.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Library/Queue.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp -o CMakeFiles/DS_Project.dir/Library/Queue.cpp.s
 
-CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o: CMakeFiles/DS_Project.dir/flags.make
-CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o: ../MainDataStructure.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp
+CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o: CMakeFiles/DS_Project.dir/flags.make
+CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o: ../Library/MainDataStructure.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o -c /home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp
 
-CMakeFiles/DS_Project.dir/MainDataStructure.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/MainDataStructure.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp > CMakeFiles/DS_Project.dir/MainDataStructure.cpp.i
+CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp > CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.i
 
-CMakeFiles/DS_Project.dir/MainDataStructure.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/MainDataStructure.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp -o CMakeFiles/DS_Project.dir/MainDataStructure.cpp.s
+CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp -o CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.s
 
 # Object files for target DS_Project
 DS_Project_OBJECTS = \
 "CMakeFiles/DS_Project.dir/main.cpp.o" \
-"CMakeFiles/DS_Project.dir/AVL.cpp.o" \
-"CMakeFiles/DS_Project.dir/Node.cpp.o" \
-"CMakeFiles/DS_Project.dir/Queue.cpp.o" \
-"CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o"
+"CMakeFiles/DS_Project.dir/Library/AVL.cpp.o" \
+"CMakeFiles/DS_Project.dir/Library/Node.cpp.o" \
+"CMakeFiles/DS_Project.dir/Library/Queue.cpp.o" \
+"CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o"
 
 # External object files for target DS_Project
 DS_Project_EXTERNAL_OBJECTS =
 
 DS_Project: CMakeFiles/DS_Project.dir/main.cpp.o
-DS_Project: CMakeFiles/DS_Project.dir/AVL.cpp.o
-DS_Project: CMakeFiles/DS_Project.dir/Node.cpp.o
-DS_Project: CMakeFiles/DS_Project.dir/Queue.cpp.o
-DS_Project: CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o
+DS_Project: CMakeFiles/DS_Project.dir/Library/AVL.cpp.o
+DS_Project: CMakeFiles/DS_Project.dir/Library/Node.cpp.o
+DS_Project: CMakeFiles/DS_Project.dir/Library/Queue.cpp.o
+DS_Project: CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o
 DS_Project: CMakeFiles/DS_Project.dir/build.make
 DS_Project: CMakeFiles/DS_Project.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable DS_Project"

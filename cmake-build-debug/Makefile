@@ -143,113 +143,113 @@ DS_Project/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/build
 .PHONY : DS_Project/fast
 
-AVL.o: AVL.cpp.o
+Library/AVL.o: Library/AVL.cpp.o
 
-.PHONY : AVL.o
-
-# target to build an object file
-AVL.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/AVL.cpp.o
-.PHONY : AVL.cpp.o
-
-AVL.i: AVL.cpp.i
-
-.PHONY : AVL.i
-
-# target to preprocess a source file
-AVL.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/AVL.cpp.i
-.PHONY : AVL.cpp.i
-
-AVL.s: AVL.cpp.s
-
-.PHONY : AVL.s
-
-# target to generate assembly for a file
-AVL.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/AVL.cpp.s
-.PHONY : AVL.cpp.s
-
-MainDataStructure.o: MainDataStructure.cpp.o
-
-.PHONY : MainDataStructure.o
+.PHONY : Library/AVL.o
 
 # target to build an object file
-MainDataStructure.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o
-.PHONY : MainDataStructure.cpp.o
+Library/AVL.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/AVL.cpp.o
+.PHONY : Library/AVL.cpp.o
 
-MainDataStructure.i: MainDataStructure.cpp.i
+Library/AVL.i: Library/AVL.cpp.i
 
-.PHONY : MainDataStructure.i
+.PHONY : Library/AVL.i
 
 # target to preprocess a source file
-MainDataStructure.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/MainDataStructure.cpp.i
-.PHONY : MainDataStructure.cpp.i
+Library/AVL.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/AVL.cpp.i
+.PHONY : Library/AVL.cpp.i
 
-MainDataStructure.s: MainDataStructure.cpp.s
+Library/AVL.s: Library/AVL.cpp.s
 
-.PHONY : MainDataStructure.s
+.PHONY : Library/AVL.s
 
 # target to generate assembly for a file
-MainDataStructure.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/MainDataStructure.cpp.s
-.PHONY : MainDataStructure.cpp.s
+Library/AVL.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/AVL.cpp.s
+.PHONY : Library/AVL.cpp.s
 
-Node.o: Node.cpp.o
+Library/MainDataStructure.o: Library/MainDataStructure.cpp.o
 
-.PHONY : Node.o
+.PHONY : Library/MainDataStructure.o
 
 # target to build an object file
-Node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Node.cpp.o
-.PHONY : Node.cpp.o
+Library/MainDataStructure.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o
+.PHONY : Library/MainDataStructure.cpp.o
 
-Node.i: Node.cpp.i
+Library/MainDataStructure.i: Library/MainDataStructure.cpp.i
 
-.PHONY : Node.i
+.PHONY : Library/MainDataStructure.i
 
 # target to preprocess a source file
-Node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Node.cpp.i
-.PHONY : Node.cpp.i
+Library/MainDataStructure.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.i
+.PHONY : Library/MainDataStructure.cpp.i
 
-Node.s: Node.cpp.s
+Library/MainDataStructure.s: Library/MainDataStructure.cpp.s
 
-.PHONY : Node.s
+.PHONY : Library/MainDataStructure.s
 
 # target to generate assembly for a file
-Node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Node.cpp.s
-.PHONY : Node.cpp.s
+Library/MainDataStructure.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.s
+.PHONY : Library/MainDataStructure.cpp.s
 
-Queue.o: Queue.cpp.o
+Library/Node.o: Library/Node.cpp.o
 
-.PHONY : Queue.o
+.PHONY : Library/Node.o
 
 # target to build an object file
-Queue.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Queue.cpp.o
-.PHONY : Queue.cpp.o
+Library/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Node.cpp.o
+.PHONY : Library/Node.cpp.o
 
-Queue.i: Queue.cpp.i
+Library/Node.i: Library/Node.cpp.i
 
-.PHONY : Queue.i
+.PHONY : Library/Node.i
 
 # target to preprocess a source file
-Queue.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Queue.cpp.i
-.PHONY : Queue.cpp.i
+Library/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Node.cpp.i
+.PHONY : Library/Node.cpp.i
 
-Queue.s: Queue.cpp.s
+Library/Node.s: Library/Node.cpp.s
 
-.PHONY : Queue.s
+.PHONY : Library/Node.s
 
 # target to generate assembly for a file
-Queue.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Queue.cpp.s
-.PHONY : Queue.cpp.s
+Library/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Node.cpp.s
+.PHONY : Library/Node.cpp.s
+
+Library/Queue.o: Library/Queue.cpp.o
+
+.PHONY : Library/Queue.o
+
+# target to build an object file
+Library/Queue.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Queue.cpp.o
+.PHONY : Library/Queue.cpp.o
+
+Library/Queue.i: Library/Queue.cpp.i
+
+.PHONY : Library/Queue.i
+
+# target to preprocess a source file
+Library/Queue.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Queue.cpp.i
+.PHONY : Library/Queue.cpp.i
+
+Library/Queue.s: Library/Queue.cpp.s
+
+.PHONY : Library/Queue.s
+
+# target to generate assembly for a file
+Library/Queue.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DS_Project.dir/build.make CMakeFiles/DS_Project.dir/Library/Queue.cpp.s
+.PHONY : Library/Queue.cpp.s
 
 main.o: main.cpp.o
 
@@ -287,18 +287,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... DS_Project"
-	@echo "... AVL.o"
-	@echo "... AVL.i"
-	@echo "... AVL.s"
-	@echo "... MainDataStructure.o"
-	@echo "... MainDataStructure.i"
-	@echo "... MainDataStructure.s"
-	@echo "... Node.o"
-	@echo "... Node.i"
-	@echo "... Node.s"
-	@echo "... Queue.o"
-	@echo "... Queue.i"
-	@echo "... Queue.s"
+	@echo "... Library/AVL.o"
+	@echo "... Library/AVL.i"
+	@echo "... Library/AVL.s"
+	@echo "... Library/MainDataStructure.o"
+	@echo "... Library/MainDataStructure.i"
+	@echo "... Library/MainDataStructure.s"
+	@echo "... Library/Node.o"
+	@echo "... Library/Node.i"
+	@echo "... Library/Node.s"
+	@echo "... Library/Queue.o"
+	@echo "... Library/Queue.i"
+	@echo "... Library/Queue.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

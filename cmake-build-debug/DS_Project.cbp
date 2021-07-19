@@ -82,28 +82,28 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/AVL.cpp">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/AVL.h">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Node.cpp">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Node.h">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Queue.cpp">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp">
 			<Option target="DS_Project"/>
 		</Unit>
-		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Queue.h">
+		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h">
 			<Option target="DS_Project"/>
 		</Unit>
 		<Unit filename="/home/amir/Amir/Programs/CPP/DS-Project/main.cpp">
