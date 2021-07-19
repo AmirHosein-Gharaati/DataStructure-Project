@@ -17,13 +17,8 @@ void MainDataStructure::add(int id, int health) {
     QueueNode *q = new QueueNode(id, health);
     this->queue->add(q);
 
-    this->tree_for_id->insert(this->tree_for_id->getRoot(), id);
-    this->tree_for_id->last->queue = q;
-    q->node_for_id = this->tree_for_id->last;
-
-    this->tree_for_health->insert(this->tree_for_health->getRoot(), health);
-    this->tree_for_health->last->queue = q;
-    q->node_for_health = this->tree_for_health->last;
+    this->tree_for_id->insert(this->tree_for_id->getRoot(), id, q, 'i');
+    this->tree_for_health->insert(this->tree_for_health->getRoot(), health, q, 'h');
 
 }
 
@@ -31,8 +26,8 @@ void MainDataStructure::add(int id, int health) {
 void MainDataStructure::serve_first() {
     QueueNode *q = this->queue->getHead();
     std::cout << q->id << " " << q->health << std::endl;
-    this->tree_for_id->remove(this->tree_for_id->getRoot(), q->id);
-    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health);
+    this->tree_for_id->remove(this->tree_for_id->getRoot(), q->id, q);
+    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health, q);
 
     this->queue->remove(this->queue->getHead());
 }
@@ -44,8 +39,8 @@ void MainDataStructure::serve_sickest() {
     QueueNode *q = temp->queue;
     std::cout << q->id << " " << q->health << std::endl;
 
-    this->tree_for_id->remove(this->tree_for_id->getRoot(), q->id);
-    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health);
+    this->tree_for_id->remove(this->tree_for_id->getRoot(), q->id, q);
+    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health, q);
 
     this->queue->remove(q);
 }
@@ -55,10 +50,9 @@ void MainDataStructure::update(int id, int new_health) {
     if(temp == nullptr) return;
 
     QueueNode *q = temp->queue;
-    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health);
+    this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health, q);
     q->node_for_health = nullptr;
     q->health = new_health;
 
-    this->tree_for_health->insert(this->tree_for_health->getRoot(), new_health);
-    q->node_for_health = this->tree_for_health->last;
+    this->tree_for_health->insert(this->tree_for_health->getRoot(), new_health, q, 'h');
 }

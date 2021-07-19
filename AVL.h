@@ -20,16 +20,15 @@ private:
     Node *leftRotate(Node *);
     int getBalanceFactor(Node *);
     Node *nodeWithMinimumValue(Node *);
-    Node *insertNode(Node *, int);
-    Node *deleteNode(Node *, int);
+    Node *insertNode(Node *, int, QueueNode*, const char&);
+    Node *deleteNode(Node *, int, QueueNode*);
 
 
 public:
     AVL();
-    Node *last;
     Node *getRoot();
-    void insert(Node *, int);
-    void remove(Node *, int);
+    void insert(Node *, int, QueueNode *, const char&);
+    void remove(Node *, int, QueueNode*);
     Node *maximum();
     Node *minimum();
     Node *find(int);

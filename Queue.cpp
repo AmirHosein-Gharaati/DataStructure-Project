@@ -23,11 +23,11 @@ void Queue::remove(QueueNode *q) {
     if(q == this->getHead() && q == this->getTail()){
         this->head = this->tail = nullptr;
         delete q;
-    }else if(q == this->getHead()){
+    }else if(q == this->getHead() && q != this->getTail()){
         this->getHead()->next->prev = nullptr;
         this->head = this->getHead()->next;
         delete q;
-    }else if(q == this->getTail()){
+    }else if(q != this->getHead() && q == this->getTail()){
         this->getTail()->prev->next = nullptr;
         this->tail = this->getTail()->prev;
         delete q;

@@ -17,7 +17,6 @@ int AVL::height(Node *N) {
 
 AVL::AVL() {
     this->root = nullptr;
-    this->last = nullptr;
 }
 
 Node *AVL::newNode(int key) {
@@ -63,13 +62,18 @@ int AVL::getBalanceFactor(Node *N) {
     return height(N->left) - height(N->right);
 }
 
-Node *AVL::insertNode(Node *node, int key) {
-    if (node == nullptr)
-        return (this->last = newNode(key));
+Node *AVL::insertNode(Node *node, int key, QueueNode *q, const char &c) {
+    if (node == nullptr){
+        Node *temp = newNode(key);
+        temp->queue = q;
+        if(c == 'h') q->node_for_health = temp;
+        else q->node_for_id = temp;
+        return temp;
+    }
     if (key < node->key)
-        node->left = insertNode(node->left, key);
+        node->left = insertNode(node->left, key, q, c);
     else if (key > node->key)
-        node->right = insertNode(node->right, key);
+        node->right = insertNode(node->right, key, q, c);
     else
         return node;
 
@@ -104,14 +108,14 @@ Node *AVL::nodeWithMinimumValue(Node *node) {
     return current;
 }
 
-Node *AVL::deleteNode(Node *root, int key){
+Node *AVL::deleteNode(Node *root, int key, QueueNode *q){
     // Find the node and delete it
     if (root == nullptr)
         return root;
     if (key < root->key)
-        root->left = deleteNode(root->left, key);
-    else if (key > root->key)
-        root->right = deleteNode(root->right, key);
+        root->left = deleteNode(root->left, key, q);
+    else if (key > root->key || (key == root->key && root->queue != q))
+        root->right = deleteNode(root->right, key, q);
     else {
         if ((root->left == nullptr) ||
             (root->right == nullptr)) {
@@ -121,12 +125,14 @@ Node *AVL::deleteNode(Node *root, int key){
                 root = nullptr;
             } else
                 *root = *temp;
+            temp->queue = nullptr;
             delete (temp);
         } else {
             Node *temp = nodeWithMinimumValue(root->right);
             root->key = temp->key;
+            root->queue = temp->queue;
             root->right = deleteNode(root->right,
-                                     temp->key);
+                                     temp->key, temp->queue);
         }
     }
 
@@ -157,12 +163,12 @@ Node *AVL::deleteNode(Node *root, int key){
     return root;
 }
 
-void AVL::insert(Node *n, int value) {
-    this->root = insertNode(n, value);
+void AVL::insert(Node *n, int value, QueueNode *q, const char &c) {
+    this->root = insertNode(n, value, q, c);
 }
 
-void AVL::remove(Node *n, int value) {
-    this->root = deleteNode(n, value);
+void AVL::remove(Node *n, int value, QueueNode *q) {
+    this->root = deleteNode(n, value, q);
 }
 
 Node *AVL::getRoot() {
