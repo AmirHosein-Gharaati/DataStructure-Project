@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
+Node.h
+/home/amir/Amir/Programs/CPP/DS-Project/Node.h
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
+AVL.h
+/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Node.h
+Queue.h
+/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/Queue.h
+Node.h
+/home/amir/Amir/Programs/CPP/DS-Project/Node.h
+
+/home/amir/Amir/Programs/CPP/DS-Project/main.cpp
+iostream
+-
+MainDataStructure.h
+/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
+

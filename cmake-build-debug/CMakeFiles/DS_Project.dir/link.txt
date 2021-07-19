@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/DS_Project.dir/main.cpp.o CMakeFiles/DS_Project.dir/AVL.cpp.o CMakeFiles/DS_Project.dir/Node.cpp.o CMakeFiles/DS_Project.dir/Queue.cpp.o CMakeFiles/DS_Project.dir/MainDataStructure.cpp.o  -o DS_Project 
