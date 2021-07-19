@@ -12,6 +12,14 @@ Node.h
 Queue.h
 /home/amir/Amir/Programs/CPP/DS-Project/Queue.h
 
+/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.cpp
+MainDataStructure.h
+/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
+iostream
+-
+AVL.h
+/home/amir/Amir/Programs/CPP/DS-Project/AVL.h
+
 /home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
 AVL.h
 /home/amir/Amir/Programs/CPP/DS-Project/AVL.h
@@ -25,12 +33,4 @@ Queue.h
 /home/amir/Amir/Programs/CPP/DS-Project/Queue.h
 Node.h
 /home/amir/Amir/Programs/CPP/DS-Project/Node.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/main.cpp
-iostream
--
-MainDataStructure.h
-/home/amir/Amir/Programs/CPP/DS-Project/MainDataStructure.h
-iostream
--
 

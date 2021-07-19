@@ -13,7 +13,7 @@ bool compare_string(char str1[], char str2[]){
         index++;
     }
 
-    if(str1[index] != '\0' || str2[index] != '\0')
+    if(str1[index] != str2[index])
         return false;
     return true;
 }
@@ -21,22 +21,25 @@ bool compare_string(char str1[], char str2[]){
 int main() {
     MainDataStructure ds = MainDataStructure();
 
-//    while(true){
-//        char command[100];
-//        cin >> command;
-//        if(compare_string(command, "exit"))
-//            break;
-//        else if(compare_string(command, "Add")){
-//            ds.add();
-//        }
-//    }
+    while(true){
+        char command[100];
+        cin >> command;
 
-    ds.add(10, 7);
-    ds.add(5, -10);
-    ds.add(4, -3);
-    ds.update(4, 10);
-    ds.serve_sickest();
-    ds.serve_sickest();
+        if(compare_string(command, "exit"))
+            break;
+        else if(compare_string(command, "Add")){
+            int id, health;
+            cin >> id >> health;
+            ds.add(id, health);
+        }else if(compare_string(command, "Serve")){
+            char sec[100];
+            cin >> sec;
+            if(compare_string(sec, "First"))
+                ds.serve_first();
+            else if(compare_string(sec, "Sickest"))
+                ds.serve_sickest();
+        }
+    }
 
     return 0;
 }

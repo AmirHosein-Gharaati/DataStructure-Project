@@ -25,6 +25,7 @@ void MainDataStructure::add(int id, int health) {
 
 void MainDataStructure::serve_first() {
     QueueNode *q = this->queue->getHead();
+    if(q == nullptr) return;
     std::cout << q->id << " " << q->health << std::endl;
     this->tree_for_id->remove(this->tree_for_id->getRoot(), q->id, q);
     this->tree_for_health->remove(this->tree_for_health->getRoot(), q->health, q);
