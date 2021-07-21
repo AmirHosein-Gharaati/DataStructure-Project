@@ -4,11 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp" "/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/AVL.cpp.o"
-  "/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp" "/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.o"
-  "/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp" "/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/Node.cpp.o"
-  "/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp" "/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/Queue.cpp.o"
-  "/home/amir/Amir/Programs/CPP/DS-Project/main.cpp" "/home/amir/Amir/Programs/CPP/DS-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/main.cpp.o"
+  "D:/Programs/CPP/DataStructure-Project/Library/AVL.cpp" "D:/Programs/CPP/DataStructure-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/AVL.cpp.obj"
+  "D:/Programs/CPP/DataStructure-Project/Library/MainDataStructure.cpp" "D:/Programs/CPP/DataStructure-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/MainDataStructure.cpp.obj"
+  "D:/Programs/CPP/DataStructure-Project/Library/Node.cpp" "D:/Programs/CPP/DataStructure-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/Node.cpp.obj"
+  "D:/Programs/CPP/DataStructure-Project/Library/Queue.cpp" "D:/Programs/CPP/DataStructure-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/Library/Queue.cpp.obj"
+  "D:/Programs/CPP/DataStructure-Project/main.cpp" "D:/Programs/CPP/DataStructure-Project/cmake-build-debug/CMakeFiles/DS_Project.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

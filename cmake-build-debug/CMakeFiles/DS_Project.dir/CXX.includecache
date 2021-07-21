@@ -6,53 +6,29 @@
 
 #IncludeRegexTransform: 
 
-/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.cpp
-AVL.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
-iostream
--
-
-/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
+D:/Programs/CPP/DataStructure-Project/Library/AVL.h
 Node.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+D:/Programs/CPP/DataStructure-Project/Library/Node.h
 Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+D:/Programs/CPP/DataStructure-Project/Library/Queue.h
 
-/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.cpp
-MainDataStructure.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
-iostream
--
+D:/Programs/CPP/DataStructure-Project/Library/MainDataStructure.h
 AVL.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
-AVL.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/AVL.h
+D:/Programs/CPP/DataStructure-Project/Library/AVL.h
 Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
+D:/Programs/CPP/DataStructure-Project/Library/Queue.h
 
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.cpp
+D:/Programs/CPP/DataStructure-Project/Library/Node.h
+Queue.h
+D:/Programs/CPP/DataStructure-Project/Library/Queue.h
+
+D:/Programs/CPP/DataStructure-Project/Library/Queue.h
 Node.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
+D:/Programs/CPP/DataStructure-Project/Library/Node.h
 
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
-Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.cpp
-Queue.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Queue.h
-Node.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/Node.h
-
-/home/amir/Amir/Programs/CPP/DS-Project/main.cpp
+D:/Programs/CPP/DataStructure-Project/main.cpp
 iostream
 -
 Library/MainDataStructure.h
-/home/amir/Amir/Programs/CPP/DS-Project/Library/MainDataStructure.h
-iostream
--
+D:/Programs/CPP/DataStructure-Project/Library/MainDataStructure.h
 
